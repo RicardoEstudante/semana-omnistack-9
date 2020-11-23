@@ -20,7 +20,8 @@ module.exports = {
   plugins: ['react', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
-    'jsx-a11y/label-has-associated-control': [1, {}],
+    camelcase: [0, {}],
+    'jsx-a11y/label-has-associated-control': [0, {}],
     'react/prop-types': [0, {}],
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
     'import/prefer-default-export': 'off',
